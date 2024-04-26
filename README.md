@@ -1,6 +1,6 @@
 # Email Verifier Tool
 
-This is a simple command-line tool written in Go which verifies the DNS records associated with a domain name, particularly those relevant to email delivery, such as MX, SPF and DMARC records.
+This is a simple command-line tool which verifies the DNS records associated with a domain name, particularly those relevant to email delivery, such as MX, SPF and DMARC records.
 
 ## Requirements
 
