@@ -1,6 +1,6 @@
 # Email Verifier Tool
 
-This is a simple command-line tool which verifies the DNS records associated with a domain name, particularly those relevant to email delivery, such as MX, SPF and DMARC records.
+This is a command-line tool which verifies the DNS records associated with a domain name, particularly those relevant to email delivery, such as MX, SPF and DMARC records.
 
 ## Requirements
 
@@ -24,8 +24,7 @@ This is a simple command-line tool which verifies the DNS records associated wit
 3. Compile and run the program:
 
     ```bash
-    go build
-    ./email-verifier-tool
+    go run main.go
     ```
 
 4. Enter the domain name and press `Enter`
